@@ -43,13 +43,13 @@ public class LettoreMultimediale {
                 System.out.println("Nome Titolo: " + titolo);
                 System.out.println("Inserisci la luminosita dell'immagine:");
                 int luminosita = scanner.nextInt();
-                Immagine immagine = new Immagine(titolo, luminosita);
-                elementi[i] = immagine;
                 System.out.print("Livello di luminosità: " + luminosita);
                 for (int j = 0; j < luminosita; j++) {
-                    System.out.println("*");
+                    System.out.print("*");
                 }
                 System.out.println();
+                Immagine immagine = new Immagine(titolo, luminosita);
+                elementi[i] = immagine;
             } else if (scelta == 3) {
                 System.out.println("Inserisci il titolo della registrazione audio:");
                 String titolo = scanner.next();
