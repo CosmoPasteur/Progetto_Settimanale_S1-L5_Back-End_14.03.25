@@ -23,14 +23,14 @@ public class LettoreMultimediale {
                 System.out.println("Durata: " + durata + " min");
                 System.out.println("Inserisci il volume del video:");
                 int volume = scanner.nextInt();
-                System.out.println("Volume: " + volume);
+                System.out.print("Volume: " + volume);
                 for (int j = 0; j < volume; j++) {
                     System.out.print("!");
                 }
                 System.out.println();
                 System.out.println("Inserisci la luminosita del video:");
                 int luminosita = scanner.nextInt();
-                System.out.println("Livello di luminosità: " + luminosita);
+                System.out.print("Livello di luminosità: " + luminosita);
                 for (int j = 0; j < luminosita; j++) {
                     System.out.print("*");
                 }
@@ -45,7 +45,7 @@ public class LettoreMultimediale {
                 int luminosita = scanner.nextInt();
                 Immagine immagine = new Immagine(titolo, luminosita);
                 elementi[i] = immagine;
-                System.out.println("Livello di luminosità: " + luminosita);
+                System.out.print("Livello di luminosità: " + luminosita);
                 for (int j = 0; j < luminosita; j++) {
                     System.out.println("*");
                 }
