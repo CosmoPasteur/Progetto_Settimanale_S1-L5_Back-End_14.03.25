@@ -59,7 +59,11 @@ public class LettoreMultimediale {
                 System.out.println("Durata: " + durata + " min");
                 System.out.println("Inserisci il volume della registrazione audio:");
                 int volume = scanner.nextInt();
-                System.out.println("Volume: " + volume);
+                System.out.print("Volume: " + volume);
+                for (int j = 0; j < volume; j++) {
+                    System.out.print("!");
+                }
+                System.out.println();
                 RegistrazioneAudio registrazioneAudio = new RegistrazioneAudio(titolo, durata, volume);
                 elementi[i] = registrazioneAudio;
             } else if (scelta == 4) {
