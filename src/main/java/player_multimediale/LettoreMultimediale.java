@@ -26,6 +26,11 @@ public class LettoreMultimediale {
                 System.out.println("Volume: " + volume);
                 System.out.println("Inserisci la luminosita del video:");
                 int luminosita = scanner.nextInt();
+                System.out.println("Livello di luminosità: " + luminosita);
+                for (int j = 0; j < luminosita; j++) {
+                    System.out.print("*");
+                }
+                System.out.println();
                 Video video = new Video(titolo, durata, volume, luminosita);
                 elementi[i] = video;
             } else if (scelta == 2) {
