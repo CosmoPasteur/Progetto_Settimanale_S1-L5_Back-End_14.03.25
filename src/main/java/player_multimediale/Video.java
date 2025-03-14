@@ -54,6 +54,6 @@ public class Video extends ElementoMultimediale {
             }
             System.out.println();
         }
-        //System.out.println("Sto riproducendo " + getTitolo() + " a volume " + volume + " e luminosita " + luminosita);
+        System.out.println("Sto riproducendo " + getTitolo() + " a volume " + volume + " e luminosita " + luminosita);
     }
 }

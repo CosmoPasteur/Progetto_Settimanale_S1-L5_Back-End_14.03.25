@@ -7,7 +7,6 @@ public class ElementoMultimediale {
     private int volume;
 
 
-
     public ElementoMultimediale(String titolo, int durata) {
         this.titolo = titolo;
         this.durata = durata;
@@ -20,6 +19,8 @@ public class ElementoMultimediale {
     public int getDurata() {
         return durata;
     }
+
+    
 
     public void setDurata(int durata) {
         this.durata = durata;
